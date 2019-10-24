@@ -1,0 +1,168 @@
+entity GlobalParameter {
+	paramCode String maxlength(10),
+    paramName String maxlength(100),
+    paramType String maxlength(1),
+    intValue Integer,
+    floatValue Float,
+    stringValue String maxlength(100),
+    dateValue LocalDate,
+    show Boolean,
+    edit Boolean,
+    
+    createSystemDate LocalDate,
+    createDate ZonedDateTime,
+    createUserId Long,
+    lastModificationSystemDate LocalDate,
+    lastModificationDate ZonedDateTime,
+    lastModificationUserId Long
+}
+
+entity Currency {
+	currencyCode String maxlength(5),
+    currencyName String maxlength(100),
+    currencySymbol String maxlength(5),
+    
+    createSystemDate LocalDate,
+    createDate ZonedDateTime,
+    createUserId Long,
+    lastModificationSystemDate LocalDate,
+    lastModificationDate ZonedDateTime,
+    lastModificationUserId Long
+}
+
+entity Instrument {
+	instrumentCode String maxlength(20),
+    instrumentType String maxlength(1),
+    instrumentShortCode String maxlength(20),
+    instrumentName String maxlength(50),
+    price Double,
+    priceDate LocalDate,
+    haircut Long,
+    haricutDate LocalDate,
+    
+    createSystemDate LocalDate,
+    createDate ZonedDateTime,
+    createUserId Long,
+    lastModificationSystemDate LocalDate,
+    lastModificationDate ZonedDateTime,
+    lastModificationUserId Long
+}
+
+entity City {
+	cityCode String maxlength(10),
+    cityName String maxlength(60),
+    
+    createSystemDate LocalDate,
+    createDate ZonedDateTime,
+    createUserId Long,
+    lastModificationSystemDate LocalDate,
+    lastModificationDate ZonedDateTime,
+    lastModificationUserId Long
+}
+
+entity Country {
+	countryCode String maxlength(10),
+    countryName String maxlength(60),
+    nationality String maxlength(60),
+    
+    createSystemDate LocalDate,
+    createDate ZonedDateTime,
+    createUserId Long,
+    lastModificationSystemDate LocalDate,
+    lastModificationDate ZonedDateTime,
+    lastModificationUserId Long
+}
+
+entity Province {
+	provinceCode String maxlength(10),
+    provinceName String maxlength(60),
+    
+    createSystemDate LocalDate,
+    createDate ZonedDateTime,
+    createUserId Long,
+    lastModificationSystemDate LocalDate,
+    lastModificationDate ZonedDateTime,
+    lastModificationUserId Long
+}
+
+entity Tax {
+	taxCode String maxlength(10),
+    shortDesc String maxlength(30),
+    longDesc String maxlength(100),
+    
+    createSystemDate LocalDate,
+    createDate ZonedDateTime,
+    createUserId Long,
+    lastModificationSystemDate LocalDate,
+    lastModificationDate ZonedDateTime,
+    lastModificationUserId Long
+}
+
+entity Bank {
+	bankCode String maxlength(10),
+    bankName String maxlength(60),
+    initialName String maxlength(60),
+    biCode String maxlength(3),
+    swiftCode String maxlength(20),
+    
+    createSystemDate LocalDate,
+    createDate ZonedDateTime,
+    createUserId Long,
+    lastModificationSystemDate LocalDate,
+    lastModificationDate ZonedDateTime,
+    lastModificationUserId Long
+}
+
+entity Custody
+{
+    custodyCode String required maxlength(10) unique,
+    custodiName String maxlength(150),
+    
+    createSystemDate LocalDate,
+    createDate ZonedDateTime,
+    createUserId Long,
+    lastModificationSystemDate LocalDate,
+    lastModificationDate ZonedDateTime,
+    lastModificationUserId Long
+}
+
+entity ManagerInvestasi
+{
+    miCode String required maxlength(10) unique,
+    miName String maxlength(100),
+    
+    createSystemDate LocalDate,
+    createDate ZonedDateTime,
+    createUserId Long,
+    lastModificationSystemDate LocalDate,
+    lastModificationDate ZonedDateTime,
+    lastModificationUserId Long
+}
+/*
+entity Product {
+
+}
+
+entity ProductCategory {
+
+}
+
+entity Charges {
+
+}
+*/
+relationship OneToMany {
+	Country to Province
+}
+
+relationship OneToMany {
+	Province to City
+}
+
+relationship OneToMany {
+	Currency to Instrument
+}
+
+dto * with mapstruct
+
+service all with serviceImpl
