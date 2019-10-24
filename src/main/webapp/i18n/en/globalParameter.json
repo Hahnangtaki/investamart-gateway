@@ -1,0 +1,36 @@
+{
+  "investamartApp": {
+    "globalParameter": {
+      "home": {
+        "title": "Global Parameters",
+        "createLabel": "Create a new Global Parameter",
+        "createOrEditLabel": "Create or edit a Global Parameter",
+        "notFound": "No Global Parameters found"
+      },
+      "created": "A new Global Parameter is created with identifier {{ param }}",
+      "updated": "A Global Parameter is updated with identifier {{ param }}",
+      "deleted": "A Global Parameter is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Global Parameter {{ id }}?"
+      },
+      "detail": {
+        "title": "Global Parameter"
+      },
+      "paramCode": "Param Code",
+      "paramName": "Param Name",
+      "paramType": "Param Type",
+      "intValue": "Int Value",
+      "floatValue": "Float Value",
+      "stringValue": "String Value",
+      "dateValue": "Date Value",
+      "show": "Show",
+      "edit": "Edit",
+      "createSystemDate": "Create System Date",
+      "createDate": "Create Date",
+      "createUserId": "Create User Id",
+      "lastModificationSystemDate": "Last Modification System Date",
+      "lastModificationDate": "Last Modification Date",
+      "lastModificationUserId": "Last Modification User Id"
+    }
+  }
+}

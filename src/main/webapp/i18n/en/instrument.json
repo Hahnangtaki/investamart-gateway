@@ -1,0 +1,36 @@
+{
+  "investamartApp": {
+    "instrument": {
+      "home": {
+        "title": "Instruments",
+        "createLabel": "Create a new Instrument",
+        "createOrEditLabel": "Create or edit a Instrument",
+        "notFound": "No Instruments found"
+      },
+      "created": "A new Instrument is created with identifier {{ param }}",
+      "updated": "A Instrument is updated with identifier {{ param }}",
+      "deleted": "A Instrument is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Instrument {{ id }}?"
+      },
+      "detail": {
+        "title": "Instrument"
+      },
+      "instrumentCode": "Instrument Code",
+      "instrumentType": "Instrument Type",
+      "instrumentShortCode": "Instrument Short Code",
+      "instrumentName": "Instrument Name",
+      "price": "Price",
+      "priceDate": "Price Date",
+      "haircut": "Haircut",
+      "haricutDate": "Haricut Date",
+      "createSystemDate": "Create System Date",
+      "createDate": "Create Date",
+      "createUserId": "Create User Id",
+      "lastModificationSystemDate": "Last Modification System Date",
+      "lastModificationDate": "Last Modification Date",
+      "lastModificationUserId": "Last Modification User Id",
+      "currency": "Currency"
+    }
+  }
+}
