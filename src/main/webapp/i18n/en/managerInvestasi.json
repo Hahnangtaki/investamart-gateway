@@ -1,0 +1,29 @@
+{
+  "investamartApp": {
+    "managerInvestasi": {
+      "home": {
+        "title": "Manager Investasis",
+        "createLabel": "Create a new Manager Investasi",
+        "createOrEditLabel": "Create or edit a Manager Investasi",
+        "notFound": "No Manager Investasis found"
+      },
+      "created": "A new Manager Investasi is created with identifier {{ param }}",
+      "updated": "A Manager Investasi is updated with identifier {{ param }}",
+      "deleted": "A Manager Investasi is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Manager Investasi {{ id }}?"
+      },
+      "detail": {
+        "title": "Manager Investasi"
+      },
+      "miCode": "Mi Code",
+      "miName": "Mi Name",
+      "createSystemDate": "Create System Date",
+      "createDate": "Create Date",
+      "createUserId": "Create User Id",
+      "lastModificationSystemDate": "Last Modification System Date",
+      "lastModificationDate": "Last Modification Date",
+      "lastModificationUserId": "Last Modification User Id"
+    }
+  }
+}

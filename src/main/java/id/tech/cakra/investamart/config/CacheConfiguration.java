@@ -45,6 +45,19 @@ public class CacheConfiguration {
             createCache(cm, id.tech.cakra.investamart.domain.User.class.getName());
             createCache(cm, id.tech.cakra.investamart.domain.Authority.class.getName());
             createCache(cm, id.tech.cakra.investamart.domain.User.class.getName() + ".authorities");
+            createCache(cm, id.tech.cakra.investamart.domain.GlobalParameter.class.getName());
+            createCache(cm, id.tech.cakra.investamart.domain.Currency.class.getName());
+            createCache(cm, id.tech.cakra.investamart.domain.Currency.class.getName() + ".instruments");
+            createCache(cm, id.tech.cakra.investamart.domain.Instrument.class.getName());
+            createCache(cm, id.tech.cakra.investamart.domain.City.class.getName());
+            createCache(cm, id.tech.cakra.investamart.domain.Country.class.getName());
+            createCache(cm, id.tech.cakra.investamart.domain.Country.class.getName() + ".provinces");
+            createCache(cm, id.tech.cakra.investamart.domain.Province.class.getName());
+            createCache(cm, id.tech.cakra.investamart.domain.Province.class.getName() + ".cities");
+            createCache(cm, id.tech.cakra.investamart.domain.Tax.class.getName());
+            createCache(cm, id.tech.cakra.investamart.domain.Bank.class.getName());
+            createCache(cm, id.tech.cakra.investamart.domain.Custody.class.getName());
+            createCache(cm, id.tech.cakra.investamart.domain.ManagerInvestasi.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

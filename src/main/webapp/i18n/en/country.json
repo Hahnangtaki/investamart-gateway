@@ -1,0 +1,31 @@
+{
+  "investamartApp": {
+    "country": {
+      "home": {
+        "title": "Countries",
+        "createLabel": "Create a new Country",
+        "createOrEditLabel": "Create or edit a Country",
+        "notFound": "No Countries found"
+      },
+      "created": "A new Country is created with identifier {{ param }}",
+      "updated": "A Country is updated with identifier {{ param }}",
+      "deleted": "A Country is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Country {{ id }}?"
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "countryCode": "Country Code",
+      "countryName": "Country Name",
+      "nationality": "Nationality",
+      "createSystemDate": "Create System Date",
+      "createDate": "Create Date",
+      "createUserId": "Create User Id",
+      "lastModificationSystemDate": "Last Modification System Date",
+      "lastModificationDate": "Last Modification Date",
+      "lastModificationUserId": "Last Modification User Id",
+      "province": "Province"
+    }
+  }
+}

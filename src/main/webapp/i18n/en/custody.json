@@ -1,0 +1,29 @@
+{
+  "investamartApp": {
+    "custody": {
+      "home": {
+        "title": "Custodies",
+        "createLabel": "Create a new Custody",
+        "createOrEditLabel": "Create or edit a Custody",
+        "notFound": "No Custodies found"
+      },
+      "created": "A new Custody is created with identifier {{ param }}",
+      "updated": "A Custody is updated with identifier {{ param }}",
+      "deleted": "A Custody is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Custody {{ id }}?"
+      },
+      "detail": {
+        "title": "Custody"
+      },
+      "custodyCode": "Custody Code",
+      "custodiName": "Custodi Name",
+      "createSystemDate": "Create System Date",
+      "createDate": "Create Date",
+      "createUserId": "Create User Id",
+      "lastModificationSystemDate": "Last Modification System Date",
+      "lastModificationDate": "Last Modification Date",
+      "lastModificationUserId": "Last Modification User Id"
+    }
+  }
+}
